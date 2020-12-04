@@ -1,0 +1,4 @@
+jenkinsfile:
+  image: cloudbees/codeship-jenkinsfile-step:latest
+  volumes:
+    - .:/workspace
