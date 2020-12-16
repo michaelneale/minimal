@@ -1,6 +1,6 @@
 - name: Prepare
   service: jenkinsfile
-  command: -v
+  command: --version
 - name: Run Jenkinsfile
   service: jenkinsfile
   command: -f /workspace
